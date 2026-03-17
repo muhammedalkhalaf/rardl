@@ -1,0 +1,29 @@
+Package: rardl
+Type: Package
+Title: Rolling-Window and Recursive ARDL Cointegration Analysis
+Version: 1.0.0
+Authors@R: person("Muhammad", "Alkhalaf", email = "muhammedalkhalaf@gmail.com",
+    role = c("aut", "cre", "cph"),
+    comment = c(ORCID = "0009-0002-2677-9246"))
+Description: Provides rolling-window and recursive implementations of the
+    Autoregressive Distributed Lag (ARDL) bounds cointegration test, as
+    proposed by Shahbaz, Khan and Mubarak (2023)
+    <doi:10.1016/j.eneco.2022.106642> and Khan, Shahbaz and Napari (2023)
+    <doi:10.1016/j.eneco.2022.106683>. The package also implements recursive
+    ADF unit root testing and recursive Granger causality testing within the
+    same framework. Critical values are obtained via Monte Carlo simulation.
+    Together, the five analysis types (rolling, recursive, radf, rgranger,
+    simulate) allow researchers to detect structural instability in
+    cointegrating relationships over time.
+License: GPL-3
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 7.3.2
+Depends: R (>= 3.5.0)
+Imports:
+    stats
+Suggests:
+    testthat (>= 3.0.0)
+Config/testthat/edition: 3
+URL: https://github.com/muhammedalkhalaf/rardl
+BugReports: https://github.com/muhammedalkhalaf/rardl/issues
