@@ -89,11 +89,9 @@ print(res)
 Shahbaz, M., Khan, A. and Mubarak, M. S. (2023). Do Geopolitical Risks
 Obstruct the Chinese Economic Progress? Evidence from Rolling-Window ARDL.
 \emph{Energy Economics}, 116, 106642.
-\doi{10.1016/j.eneco.2022.106642}
 
 Khan, A., Shahbaz, M. and Napari, A. (2023). Recursive ARDL: Detecting
 Unstable Cointegration. \emph{Energy Economics}, 117, 106683.
-\doi{10.1016/j.eneco.2022.106683}
 
 Pesaran, M. H., Shin, Y. and Smith, R. J. (2001). Bounds testing
 approaches to the analysis of level relationships.

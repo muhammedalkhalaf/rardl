@@ -2,3 +2,4 @@
 ^README\.Rmd$
 ^\.git$
 ^\.gitignore$
+^\.zenodo\.json$

@@ -7,9 +7,8 @@ Authors@R: person("Muhammad", "Alkhalaf", email = "muhammedalkhalaf@gmail.com",
     comment = c(ORCID = "0009-0002-2677-9246"))
 Description: Provides rolling-window and recursive implementations of the
     Autoregressive Distributed Lag (ARDL) bounds cointegration test, as
-    proposed by Shahbaz, Khan and Mubarak (2023)
-    <doi:10.1016/j.eneco.2022.106642> and Khan, Shahbaz and Napari (2023)
-    <doi:10.1016/j.eneco.2022.106683>. The package also implements recursive
+    proposed by Shahbaz, Khan and Mubarak (2023) and Khan, Shahbaz and
+    Napari (2023). The package also implements recursive
     ADF unit root testing and recursive Granger causality testing within the
     same framework. Critical values are obtained via Monte Carlo simulation.
     Together, the five analysis types (rolling, recursive, radf, rgranger,
