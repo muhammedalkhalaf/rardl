@@ -1,5 +1,15 @@
 # rardl
 
+> **This repository is superseded and no longer maintained.**
+> At the request of the CRAN team, this package was merged into the CRAN package
+> [ardlverse](https://cran.r-project.org/package=ardlverse). The function `rardl()` is maintained there,
+> with corrections that are not in this repository. The code here is an older version
+> and should not be used for new work.
+>
+> ```r
+> install.packages("ardlverse")
+> ```
+
 **Rolling-Window and Recursive ARDL Cointegration Analysis** for R
 
 ## Overview
@@ -21,7 +31,9 @@ cointegrating relationships over time.
 ## Installation
 
 ```r
-install.packages("rardl")
+# Old version, GitHub only (see the notice at the top of this page)
+# install.packages("remotes")
+remotes::install_github("muhammedalkhalaf/rardl")
 ```
 
 ## Usage
